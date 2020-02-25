@@ -1,12 +1,35 @@
 body {
-	background-color: #474e5d;
-	font-family: "Times New Roman", Verdana, sans-serif;
+	background-color: #00BFFF;
+	
 }
-div.header {
+html {
+	line-height: 1.2em;
+	font-size: 1em;
+	font-family: font-family: "Times New Roman", Verdana, sans-serif;
+}
+
+div.body {
 	position: absolute;
 	height: 100%;
 	width: 80%;
 	background-color: white;
 	margin-left: 10%;
 	margin-top: 5%;
+}
+input {
+	text-align: center;
+	font-size: 1em;
+	width: 100%;
+}
+label {
+	font-size: 2em;
+	margin-left: 0em;
+}
+div.container_float {
+	width:100%;
+	float: none;
+}
+div.container_float1 {
+	width:100%;
+	float: none;
 }
