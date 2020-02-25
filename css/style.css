@@ -1,0 +1,12 @@
+body {
+	background-color: #474e5d;
+	font-family: "Times New Roman", Verdana, sans-serif;
+}
+div.header {
+	position: absolute;
+	height: 100%;
+	width: 80%;
+	background-color: white;
+	margin-left: 10%;
+	margin-top: 5%;
+}
