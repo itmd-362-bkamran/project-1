@@ -15,15 +15,22 @@ div.body {
 	background-color: white;
 	margin-left: 10%;
 	margin-top: 5%;
+	overflow-x: hidden;
+	text-align: center;
 }
 input {
 	text-align: center;
-	font-size: 1em;
+	display: block;
 	width: 100%;
+	padding: 1em;
+	background: #f1f1f1;
+	border: none;
 }
 label {
+	text-align: center;
 	font-size: 2em;
 	margin-left: 0em;
+	padding: 1em;
 }
 div.container_float {
 	width:100%;
