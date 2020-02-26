@@ -31,7 +31,7 @@ input {
 }
 label {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.82em;
 	margin-left: 0em;
 }
 div {
@@ -77,7 +77,20 @@ input.checkbox {
 h1 {
 	color: #FFB6C1;
 	font-weight: bold;
+	font-size: 2.618em;
+	 text-decoration: underline
 }
+p {
+	font-size: 1em;
+	text-align: center;
+}
+#password {
+}
+#password1 {
+}
+#email {
+}
+
 @media screen and (min-width: 750px) {
 	body {
 		background-color: #474e5d;
@@ -92,11 +105,12 @@ h1 {
 	}
 	h1 {
 		position: relative;
-		font-size: 3em;
+		font-size: 2.618em;
 		font-weight: bold;
 		left: 10px;
 		margin-bottom: 25px;
 		margin-top: 25px;
+		text-align: center;
 	}
 	input {
 		display: block;
@@ -109,7 +123,8 @@ h1 {
 	p {
 		margin-bottom: 20px;
 		margin-left: .5em;
-		font-size: 1.1em;
+		font-size: 1em;
+		text-align: center;
 	}
 	.container {
 		position: absolute;
@@ -124,7 +139,7 @@ h1 {
 		overflow: hidden;
 	}
 	label {
-		font-size: 1.5em;
+		font-size: 1.82em;
 		margin-left: .5em;
 	}
 	#button {
@@ -136,7 +151,7 @@ h1 {
 		padding: 1em;
 	}
 	label.checkbox {
-		font-size: 1.5em;
+		font-size: 1.82em;
 		margin: 0;
 		font-weight: bold;
 	}
@@ -147,16 +162,16 @@ h1 {
 		display: inline;
 	}
 	label.float {
-		margin-left: 10%;
+		margin-left: 12%;
 	}
 	input.name {
 		width: 50%;
 	}
 	#input_float_lname {
-	margin-left: 10%;
+	margin-left: 12%;
 	}
 	#input_float_pw {
-		margin-left: 10%;
+		margin-left: 12%;
 	}
 	div.container1 {
 		width:50%;
@@ -194,7 +209,7 @@ div.header {
 }
 h1 {
 	position: relative;
-	font-size: 4em;
+	font-size: 2.618em;
 	font-weight: bold;
 	left: 10px;
 	margin-bottom: 25px;
@@ -213,7 +228,8 @@ input {
 p {
 	margin-bottom: 20px;
 	margin-left: .5em;
-	font-size: 1.2em;
+	font-size: 1.82em;
+	color: red;
 }
 .container {
 	position: absolute;
@@ -228,7 +244,7 @@ p {
 	overflow: hidden;
 }
 label {
-	font-size: 1.5em;
+	font-size: 1.82em;
 	margin-left: .5em;
 }
 #button {
@@ -236,11 +252,11 @@ label {
 	left: 37.5%;
 	width: 25%;
 	margin-top: 25px;
-	font-size: 1.2em;
+	font-size: 1em;
 	padding: 1em;
 }
 label.checkbox {
-	font-size: 1.5em;
+	font-size: 1.82em;
 	margin: 0;
 	font-weight: bold;
 }
@@ -251,16 +267,16 @@ input.checkbox {
 	display: inline;
 }
 label.float {
-	margin-left: 7%;
+	margin-left: 10%;
 }
 input.name {
 	width: 50%;
 }
 #input_float_lname {
-	margin-left: 7%;
+	margin-left: 10%;
 }
 #input_float_pw {
-	margin-left: 7%;
+	margin-left: 10%;
 }
 div.container1 {
 	width:50%;
