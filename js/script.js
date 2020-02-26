@@ -11,18 +11,28 @@ document.getElementById('button').addEventListener('click', function(){
 	
 	if ( pw != pw1) {
 		alert('Your passwords dont match please try again');
-		return false;
+		document.getElementById("myform").addEventListener("click", function(event){
+		event.preventDefault()
+	});
 	}else if (isValid) {
 		alert("Your password must contain at least one special character to proceed");
+		document.getElementById("myform").addEventListener("click", function(event){
+		event.preventDefault()
+	});
     } else if (plength==0){
 		alert("Your Password cannot be blank please provide a suitable password.");
+		document.getElementById("myform").addEventListener("click", function(event){
+		event.preventDefault()
+	});
 	} else if (plength<=7){
 		alert("Your Password is too short! It must be at least 8 characters, please try again.");
+		document.getElementById("myform").addEventListener("click", function(event){
+		event.preventDefault()
+	});
 	} else {
+		alert('Your password is acceptable');
 		document.getElementById("myform").submit();
 	}
-    
-	
 });
 
 }
