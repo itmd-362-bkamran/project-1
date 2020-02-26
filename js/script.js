@@ -13,12 +13,14 @@ document.getElementById('button').addEventListener('click', function(){
             alert("Your password must contain at least one special character to proceed");
         } else {
             alert("Password passes requirements");
+			document.getElementById("myform").reset()
         }
  
-        return isValid;
+        return true;
     }
 });
 
 }
+
  
 window.addEventListener('load', init);
