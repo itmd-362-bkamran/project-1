@@ -136,7 +136,10 @@ div.img {
 	input.name {
 		width: 50%;
 	}
-	input.float {
+	#input_float_lname {
+	margin-left: 10%;
+	}
+	#input_float_pw {
 		margin-left: 10%;
 	}
 	div.container1 {
@@ -151,6 +154,8 @@ div.img {
 		float: left;
 	}
 	#password {
+	}
+	#password1 {
 	}
 
 	
@@ -232,7 +237,10 @@ label.float {
 input.name {
 	width: 50%;
 }
-input.float {
+#input_float_lname {
+	margin-left: 7%;
+}
+#input_float_pw {
 	margin-left: 7%;
 }
 div.container1 {
