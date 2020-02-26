@@ -60,7 +60,7 @@ div.img {
 	background-color: blue;
 	color: white;
 	margin-top: 25px;
-	font-size: 1.2em;
+	font-size: 1em;
 	padding: 1em;
 }
 label.checkbox {
@@ -130,7 +130,7 @@ input.checkbox {
 		background-color: blue;
 		color: white;
 		margin-top: 25px;
-		font-size: 1.2em;
+		font-size: 1em;
 		padding: 1em;
 	}
 	label.checkbox {
