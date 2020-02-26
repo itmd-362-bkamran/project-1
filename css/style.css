@@ -4,7 +4,7 @@ body {
 }
 html {
 	line-height: 1.2em;
-	font-size: 1em;
+	font-size: 1em; /*using the golden rule of 1.618*/
 	font-family: "Times New Roman", Verdana, sans-serif;
 }
 #myform {
@@ -31,7 +31,7 @@ input {
 }
 label {
 	text-align: center;
-	font-size: 1.82em;
+	font-size: 1.82em; /*29.124px*/
 	margin-left: 0em;
 }
 div {
@@ -77,11 +77,11 @@ input.checkbox {
 h1 {
 	color: #FFB6C1;
 	font-weight: bold;
-	font-size: 2.618em;
-	 text-decoration: underline
+	font-size: 2.618em; /*47.123px*/ 
+	text-decoration: underline
 }
 p {
-	font-size: 1em;
+	font-size: 1em; /*18px*/
 	text-align: center;
 }
 #password {
@@ -190,9 +190,6 @@ p {
 	}
 	#email {
 	}
-
-	
-
 }
 @media screen and (min-width: 1200px) {
 	
@@ -203,93 +200,97 @@ p {
 	div.body {
 		text-align: left;
 	}
-div.header {
-	position: relative;
-	left: 10px;
-}
-h1 {
-	position: relative;
-	font-size: 2.618em;
-	font-weight: bold;
-	left: 10px;
-	margin-bottom: 25px;
-	margin-top: 25px;
-	text-align: center;
-}
-input {
-	display: block;
-	width: 100%;
-	padding: 1em;
-	background: #f1f1f1;
-	border: none;
-	text-align: left;
-	margin-left: .5em;
-}
-p {
-	margin-bottom: 20px;
-	margin-left: .5em;
-	font-size: 1.82em;
-	color: red;
-}
-.container {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 80%;
-	height: 80%;
-	margin: 5% auto 10% auto;
-	margin-left: 10%;
-	background-color: White;
-	color: black;
-	overflow: hidden;
-}
-label {
-	font-size: 1.82em;
-	margin-left: .5em;
-}
-#button {
-	position: relative;
-	left: 37.5%;
-	width: 25%;
-	margin-top: 25px;
-	font-size: 1em;
-	padding: 1em;
-}
-label.checkbox {
-	font-size: 1.82em;
-	margin: 0;
-	font-weight: bold;
-}
-input.checkbox {
-	padding: 0em;
-	width: 0%;
-	margin-right: 1%;
-	display: inline;
-}
-label.float {
-	margin-left: 10%;
-}
-input.name {
-	width: 50%;
-}
-#input_float_lname {
-	margin-left: 10%;
-}
-#input_float_pw {
-	margin-left: 10%;
-}
-div.container1 {
-	width:50%;
-}
-div.container_float {
-	width:50%;
-	float: right;
-}
-div.container_float1 {
-	width:50%;
-	float: left;
-}
-
-
+	div.header {
+		position: relative;
+		left: 10px;
+	}
+	h1 {
+		position: relative;
+		font-size: 2.618em;
+		font-weight: bold;
+		left: 10px;
+		margin-bottom: 25px;
+		margin-top: 25px;
+		text-align: center;
+	}
+	input {
+		display: block;
+		width: 100%;
+		padding: 1em;
+		background: #f1f1f1;
+		border: none;
+		text-align: left;
+		margin-left: .5em;
+	}
+	p {
+		margin-bottom: 20px;
+		margin-left: .5em;
+		font-size: 1.82em;
+		color: red;
+	}
+	.container {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 80%;
+		height: 80%;
+		margin: 5% auto 10% auto;
+		margin-left: 10%;
+		background-color: White;
+		color: black;
+		overflow: hidden;
+	}
+	label {
+		font-size: 1.82em;
+		margin-left: .5em;
+	}
+	#button {
+		position: relative;
+		left: 37.5%;
+		width: 25%;
+		margin-top: 25px;
+		font-size: 1em;
+		padding: 1em;
+	}
+	label.checkbox {
+		font-size: 1.82em;
+		margin: 0;
+		font-weight: bold;
+	}
+	input.checkbox {
+		padding: 0em;
+		width: 0%;
+		margin-right: 1%;
+		display: inline;
+	}
+	label.float {
+		margin-left: 10%;
+	}
+	input.name {
+		width: 50%;
+	}
+	#input_float_lname {
+		margin-left: 10%;
+	}
+	#input_float_pw {
+		margin-left: 10%;
+	}
+	div.container1 {
+		width:50%;
+	}
+	div.container_float {
+		width:50%;
+		float: right;
+	}
+	div.container_float1 {
+		width:50%;
+		float: left;
+	}
+	#password {
+	}
+	#password1 {
+	}
+	#email {
+	}
 }
 	
