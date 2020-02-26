@@ -52,7 +52,7 @@ img {
 div.img {
 	padding-bottom: .5em;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 750px) {
 		body {
 	background-color: #474e5d;
 	font-family: "Times New Roman", Verdana, sans-serif;
@@ -145,7 +145,7 @@ div.container_float1 {
 	
 
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
 	
 	body {
 	background-color: #474e5d;
@@ -216,13 +216,13 @@ input.checkbox {
 	display: inline;
 }
 label.float {
-	margin-left: 10%;
+	margin-left: 7%;
 }
 input.name {
 	width: 50%;
 }
 input.float {
-	margin-left: 10%;
+	margin-left: 7%;
 }
 div.container1 {
 	width:50%;
